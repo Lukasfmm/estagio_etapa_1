@@ -1,0 +1,131 @@
+# ==============================================
+# .gitignore - Cockpit de Relatórios
+# ==============================================
+
+# ============================================
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# ============================================
+# Arquivo com credenciais reais (NUNCA versionar)
+.env
+
+# ============================================
+# ARQUIVOS GERADOS PELO SISTEMA
+# ============================================
+
+# --- Logs ---
+logs/*.log
+logs/**/*.log
+
+# --- Outputs (CSVs e Relatórios) ---
+output/**/*.csv
+output/**/*.docx
+output/**/*.pdf
+output/**/*
+
+# Mantém as pastas vazias no repositório
+!output/.gitkeep
+!output/csv/.gitkeep
+!logs/.gitkeep
+
+# ============================================
+# PYTHON
+# ============================================
+
+# --- Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais ---
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# --- Pytest ---
+.pytest_cache/
+.cache/
+tests/__pycache__/
+tests/*.pyc
+
+# --- Coverage ---
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+.hypothesis/
+
+# --- Distribuição / Empacotamento ---
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ============================================
+# IDEs E EDITORES
+# ============================================
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- PyCharm ---
+.idea/
+*.iml
+*.iws
+
+# --- Sublime Text ---
+*.sublime-project
+*.sublime-workspace
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# SISTEMA OPERACIONAL
+# ============================================
+
+# --- Windows ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Linux ---
+*~
+.directory
+.Trash-*
+
+# ============================================
+# TEMPORÁRIOS E BACKUPS
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.#*
+
+# ============================================
+# DOCUMENTOS TEMPORÁRIOS
+# ============================================
+~$*.docx
+~$*.xlsx
+*.tmp.docx
+*.tmp.xlsx
+
+# ============================================
+# ARQUIVOS DE DADOS SENSÍVEIS (EXEMPLOS)
+# ============================================
+# Descomente se necessário proteger arquivos específicos
+# eventos_db_producao.csv
+# config/databases_prod.json

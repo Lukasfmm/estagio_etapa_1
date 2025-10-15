@@ -1,0 +1,107 @@
+# ============================================================================
+# Arquivo: requirements.txt
+# Projeto: Cockpit de Relatórios
+# ============================================================================
+#
+# DESCRIÇÃO:
+#   Lista de dependências Python necessárias para executar o sistema.
+#   Este arquivo é usado pelo pip para instalar todas as bibliotecas.
+#
+# USO:
+#   pip install -r requirements.txt
+#
+# NOTA:
+#   As versões especificadas são as mínimas recomendadas.
+#   O pip instalará essas versões ou versões mais recentes compatíveis.
+#
+# ============================================================================
+
+# ============================================================================
+# PROCESSAMENTO E ANÁLISE DE DADOS
+# ============================================================================
+
+# pandas: Biblioteca essencial para manipulação e análise de dados
+# Usado em: etl.py (agregações, transformações) e build_report.py (carregamento de CSVs)
+# Recursos utilizados: DataFrame, groupby, read_csv, to_csv
+pandas>=2.0.0
+
+# ============================================================================
+# BANCO DE DADOS E CONEXÕES
+# ============================================================================
+
+# SQLAlchemy: Toolkit SQL e ORM para Python
+# Usado em: connection_db.py (engine) e etl.py (execução de queries)
+# Recursos utilizados: create_engine, sessionmaker, text (para raw SQL)
+sqlalchemy>=2.0.0
+
+# PyMySQL: Driver Python puro para MySQL
+# Usado em: Conexão com banco MySQL através do SQLAlchemy
+# Nota: É a dependência do formato mysql+pymysql:// da URL de conexão
+pymysql>=1.0.0
+
+# ============================================================================
+# TEMPLATES E GERAÇÃO DINÂMICA
+# ============================================================================
+
+# Jinja2: Engine de templates para Python
+# Usado em: etl.py (renderização de query.sql com variáveis dinâmicas)
+# Recursos utilizados: Template class, render method
+jinja2>=3.1.0
+
+# ============================================================================
+# CONFIGURAÇÃO E VARIÁVEIS DE AMBIENTE
+# ============================================================================
+
+# python-dotenv: Carrega variáveis de ambiente de arquivo .env
+# Usado em: connection_db.py, etl.py, main.py (load_dotenv())
+# Recurso: Gerenciamento seguro de credenciais e configurações
+python-dotenv>=1.0.0
+
+# ============================================================================
+# GERAÇÃO E MANIPULAÇÃO DE DOCUMENTOS
+# ============================================================================
+
+# python-docx: Criação e manipulação de arquivos .docx (Microsoft Word)
+# Usado em: build_report.py (preenchimento de templates, formatação de tabelas)
+# Recursos utilizados: Document, add_row, paragraph formatting, cell styling
+python-docx>=0.8.11
+
+# docx2pdf: Conversão de arquivos DOCX para PDF
+# Usado em: build_report.py (conversão final do relatório)
+# Nota: Requer Microsoft Word (Windows) ou LibreOffice (Linux/Mac)
+docx2pdf>=0.1.8
+
+# ============================================================================
+# TESTES AUTOMATIZADOS
+# ============================================================================
+
+# pytest: Framework de testes para Python
+# Usado em: tests/ (test_connection_db.py, test_etl.py, test_build_report.py)
+# Recursos utilizados: fixtures, monkeypatch, tmp_path, assert statements
+pytest>=7.0.0
+
+# ============================================================================
+# DEPENDÊNCIAS OPCIONAIS (DESCOMENTE SE NECESSÁRIO)
+# ============================================================================
+
+# Para cobertura de testes
+# pytest-cov>=4.0.0
+
+# Para testes mais expressivos
+# pytest-describe>=2.0.0
+
+# Para geração de relatórios HTML de testes
+# pytest-html>=3.2.0
+
+# Para formatação de código
+# black>=23.0.0
+
+# Para verificação de estilo (PEP 8)
+# flake8>=6.0.0
+
+# Para análise de tipo estático
+# mypy>=1.0.0
+
+# ============================================================================
+# FIM DO ARQUIVO
+# ============================================================================

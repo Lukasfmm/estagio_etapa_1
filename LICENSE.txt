@@ -1,0 +1,144 @@
+LICENÇA DE USO RESTRITO - ACADÊMICO E CORPORATIVO INTERNO
+
+Copyright (c) 2025 Lucas Ferreira Mendes Moraes
+
+Este software foi desenvolvido como parte do plano de atividades de estágio 
+do curso de Engenharia de Computação da Universidade São Francisco (USF) - 
+Campus Campinas Swift, em conjunto com a empresa SIMPLE SOLUÇÕES DE MARKETING 
+E TECNOLOGIA LTDA.
+
+================================================================================
+PERMISSÕES CONCEDIDAS
+================================================================================
+
+1. USO ACADÊMICO E EDUCACIONAL
+
+   Permissões concedidas para:
+   
+   a) Universidade São Francisco (USF) - Campus Campinas Swift:
+      - Uso, estudo e avaliação para fins educacionais
+      - Análise por professores, orientadores e avaliadores
+      - Referência em trabalhos de conclusão de curso
+   
+   b) Autor (Lucas Ferreira Mendes Moraes):
+      - Apresentação em portfólio acadêmico e profissional
+      - Uso como referência em entrevistas e avaliações
+      - Apresentação em eventos acadêmicos
+   
+   c) Pesquisadores e Estudantes:
+      - Estudo do código para fins educacionais
+      - Referência bibliográfica com devida citação
+      - Análise técnica sem redistribuição
+
+
+2. USO CORPORATIVO INTERNO
+
+   Permissões concedidas exclusivamente para SIMPLE SOLUÇÕES DE MARKETING E 
+   TECNOLOGIA LTDA:
+   
+   - Uso irrestrito em ambiente de produção interno
+   - Modificação e adaptação para necessidades da empresa
+   - Distribuição interna entre colaboradores autorizados
+   - Integração com outros sistemas internos da empresa
+   - Criação de trabalhos derivados para uso interno
+
+
+================================================================================
+RESTRIÇÕES E PROIBIÇÕES
+================================================================================
+
+As seguintes ações são EXPRESSAMENTE PROIBIDAS sem autorização prévia 
+por escrito do autor:
+
+❌ Redistribuição pública do código-fonte ou binários
+❌ Publicação em repositórios públicos (GitHub, GitLab, etc.)
+❌ Comercialização ou licenciamento para terceiros
+❌ Uso comercial por organizações não autorizadas
+❌ Modificação e redistribuição de versões alteradas
+❌ Remoção ou alteração de avisos de copyright
+❌ Uso do nome do autor para endosso sem permissão
+❌ Sublicenciamento para outras organizações
+
+
+================================================================================
+PROPRIEDADE INTELECTUAL
+================================================================================
+
+1. O código-fonte permanece propriedade intelectual do autor
+2. A SIMPLE SOLUÇÕES possui direito de uso perpétuo conforme estabelecido
+3. Contribuições de terceiros requerem cessão de direitos por escrito
+4. Marcas registradas permanecem propriedade de seus respectivos donos
+
+
+================================================================================
+GARANTIAS E RESPONSABILIDADES
+================================================================================
+
+ISENÇÃO DE GARANTIAS:
+
+ESTE SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIAS DE QUALQUER TIPO, 
+SEJAM EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO A:
+
+- Garantias de comercialização
+- Adequação a um propósito específico
+- Não violação de direitos de terceiros
+- Funcionamento ininterrupto ou livre de erros
+- Precisão ou confiabilidade dos resultados
+
+LIMITAÇÃO DE RESPONSABILIDADE:
+
+EM NENHUMA CIRCUNSTÂNCIA O AUTOR OU OS DETENTORES DE COPYRIGHT SERÃO 
+RESPONSÁVEIS POR QUAISQUER DANOS (INCLUINDO, SEM LIMITAÇÃO, DANOS POR 
+PERDA DE LUCROS, INTERRUPÇÃO DE NEGÓCIOS, PERDA DE INFORMAÇÕES OU OUTRAS 
+PERDAS PECUNIÁRIAS) DECORRENTES DO USO OU INCAPACIDADE DE USO DESTE SOFTWARE.
+
+
+================================================================================
+SOLICITAÇÕES DE AUTORIZAÇÃO
+================================================================================
+
+Para solicitar permissões além das concedidas nesta licença, incluindo:
+- Uso comercial por terceiros
+- Redistribuição pública
+- Licenciamento para outras organizações
+- Criação de trabalhos derivados comerciais
+
+Entre em contato com:
+
+Autor: Lucas Ferreira Mendes Moraes
+Instituição: Universidade São Francisco (USF)
+Empresa: SIMPLE SOLUÇÕES DE MARKETING E TECNOLOGIA LTDA
+
+
+================================================================================
+MODIFICAÇÕES À LICENÇA
+================================================================================
+
+Esta licença pode ser modificada ou revogada pelo autor a qualquer momento.
+Versões anteriores do software permanecem sob os termos da licença vigente 
+no momento de sua distribuição.
+
+
+================================================================================
+JURISDIÇÃO E LEI APLICÁVEL
+================================================================================
+
+Esta licença é regida pelas leis da República Federativa do Brasil.
+Qualquer disputa relacionada a esta licença será resolvida nos tribunais 
+competentes da Comarca de Campinas, Estado de São Paulo, Brasil.
+
+
+================================================================================
+ACEITAÇÃO DOS TERMOS
+================================================================================
+
+O uso deste software constitui aceitação integral e incondicional de todos 
+os termos desta licença.
+
+
+================================================================================
+
+Data de Emissão: Outubro de 2025
+Versão da Licença: 1.0
+
+================================================================================
